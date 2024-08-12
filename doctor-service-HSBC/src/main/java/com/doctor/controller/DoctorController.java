@@ -22,7 +22,7 @@ import com.doctor.repository.DoctorRepository;
 
 @RestController
 @RequestMapping("/api/doctors")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:8000"})
 public class DoctorController {
 
 	@Autowired
